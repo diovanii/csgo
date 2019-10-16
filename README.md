@@ -1,12 +1,18 @@
 # All of my cs:go configs
 
+* #### [jobzera.cfg](#jobzera)
+* #### [launch-options.cfg](#launch-options)
+* #### [dark.cfg](#dark-config)
 
-### * jobzera.cfg
+<br>
+<br>
+
+### Jobzera
 My personal config in game
 
 <br>
 
-### * launch-options.cfg
+### Launch options
 <br><br>
 `-console`                      __automatically open the console__ <br><br>
 `-d3d9ex`                       __helps you alt+tab faster__ <br><br>
@@ -27,7 +33,7 @@ My personal config in game
 `+mat_disable_fancy_blending 1` __remove details from some textures__ <br><br>
 `+r_dynamic 0`                  __disable the dynamic illumination in game__ <br><br>
 
-### * dark.cfg
+### Dark config
 Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sharedfiles/filedetails/?id=241148414)
 <br><br>
 `sv_cheats 1`                __lets you use commands__ <br><br>
@@ -44,7 +50,6 @@ Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sh
 `sv_infinite_ammo 1`         __activates infinite ammo__ <br><br>
 `ammo_grenade_limit_total 5` __sets the total of grenades that can be loaded to 5__ <br><br>
 `mp_warmup_end`              __remove the warmup__ <br><br>
-
 
 
 #### MIT License
