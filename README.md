@@ -15,25 +15,29 @@ My personal config in game
 <br>
 
 ## Launch options
+
 <br><br>
-`-console`                      __automatically open the console__ <br><br>
-`-d3d9ex`                       __helps you alt+tab faster__ <br><br>
-`-forcenovsync`                 __disable vsync__ <br><br>
-`-refresh 75`                   __set your monitor's in-game hertz__ <br><br>
-`-freq 75`                      __set your monitor's in-game hertz__ <br><br>
-`-high`                         __set your CPU priority to high__ <br><br>
-`-language english`             __set the language to English__ <br><br>
-`-novid`                        __disable the initial cutscene__ <br><br>
-`-noaafonts`                    __disable anti-aliasing for fonts__ <br><br>
-`-no-browser`                   __disable the web browser__ <br><br>
-`-nojoy`                        __disable joystick support__ <br><br>
-`-threads 4`                    __set your CPU preference for 4 threads__ <br><br>
-`-tickrate 128`                 __set the in game tickrate to 128__ <br><br>
-`-limitvsconst`                 __will limit the  <br>number of vertex shaders to a maximum of 256, which may offer a FPS increase__ <br><br>
-`+cl_forcepreload 1`            __force to preload all map models before entering map__ <br><br>
-`+exec jobzera.cfg`             __automatically execute jobzera.cfg__ <br><br>
-`+mat_disable_fancy_blending 1` __remove details from some textures__ <br><br>
-`+r_dynamic 0`                  __disable the dynamic illumination in game__ <br><br>
+
+| command                         | what it does                                                                                    |
+|---------------------------------|-------------------------------------------------------------------------------------------------|
+| `-console`                      | __automatically open the console__                                                              |
+| `-d3d9ex`                       | __help you alt+tab faster__                                                                     |
+| `-forcenovsync`                 | __disable vsync__                                                                               |
+| `-refresh 75`                   | __set your monitor's in-game hertz__                                                            |
+| `-freq 75`                      | __set your monitor's in-game hertz__                                                            |
+| `-high`                         | __set your CPU priority to high__                                                               |
+| `-language english`             | __set the language to English__                                                                 |
+| `-novid`                        | __disable the initial cutscene__                                                                |
+| `-noaafonts`                    | __disable anti-aliasing for fonts__                                                             |
+| `-no-browser`                   | __disable the web browser__                                                                     |
+| `-nojoy`                        | __disable joystick support__                                                                    |
+| `-threads 4`                    | __set your CPU preference for 4 threads__                                                       |
+| `-tickrate 128`                 | __set the game tickrate to 128__                                                                |
+| `-limitvsconst`                 | __will limit the number of vertex shaders to a maximum of 256, which may offer a FPS increase__ |
+| `+cl_forcepreload 1`            | __force to preload all map models before entering map__                                         |
+| `+exec jobzera.cfg`             | __automatically execute jobzera.cfg__                                                           |
+| `+mat_disable_fancy_blending 1` | __remove details from some textures__                                                           |
+| `+r_dynamic 0`                  | __disable the dynamic illumination in game__                                                    |
 
 ---
 <br>
@@ -45,20 +49,22 @@ Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sh
 <br>
 <br>
 
-`sv_cheats 1`                __lets you use commands__ <br><br>
-`mp_limitteams 0`            __remove the team limit__ <br><br>
-`mp_autoteambalance 0`       __disable auto team balancing__ <br><br>
-`mp_roundtime 60`            __change the round time to 60 minutes__ <br><br>
-`mp_roundtime_defuse 60`     __sets to 60 minutes the amount of time that a round takes to end in any bomb-defusal game mode__ <br><br>
-`mp_round_restart_delay 0`   __remove the initial delay of a round__ <br><br>
-`mp_maxmoney 60000`          __set the maximum of money to 60k__ <br><br>
-`mp_startmoney 60000`        __set the initial money to 60k__ <br><br>
-`mp_freezetime 0`            __remove the freezetime__ <br><br>
-`mp_buytime 9999`            __allows you to buy at any time__ <br><br>
-`mp_buy_anywhere 1`          __lets you buy anywhere__ <br><br>
-`sv_infinite_ammo 1`         __activates infinite ammo__ <br><br>
-`ammo_grenade_limit_total 5` __sets the total of grenades that can be loaded to 5__ <br><br>
-`mp_warmup_end`              __remove the warmup__ <br><br>
+| command                      | what it does                                                                                      |
+|------------------------------|---------------------------------------------------------------------------------------------------|
+| `sv_cheats 1`                | __lets you use commands__                                                                         |
+| `mp_limitteams 0`            | __remove the team limit__                                                                         |
+| `mp_autoteambalance 0`       | __disable auto team balancing__                                                                   |
+| `mp_roundtime 60`            | __change the round time to 60 minutes__                                                           |
+| `mp_roundtime_defuse 60`     | __sets to 60 minutes the amount of time that a round takes to end in any bomb-defusal game mode__ |
+| `mp_round_restart_delay 0`   | __remove the initial delay of a round__                                                           |
+| `mp_maxmoney 60000`          | __set the maximum of money to 60k__                                                               |
+| `mp_startmoney 60000`        | __set the initial money to 60k__                                                                  |
+| `mp_freezetime 0`            | __remove the freezetime__                                                                         |
+| `mp_buytime 9999`            | __allow you to buy at any time__                                                                  |
+| `mp_buy_anywhere 1`          | __let you buy anywhere__                                                                          |
+| `sv_infinite_ammo 1`         | __activate infinite ammo__                                                                        |
+| `ammo_grenade_limit_total 5` | __set the total of grenades that can be loaded to 5__                                             |
+| `mp_warmup_end`              | __remove the warmup__                                                                             |
 
 ---
 <br>
@@ -68,13 +74,15 @@ Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sh
 <br>
 <br>
 
-`sv_cheats 1`                __lets you use commands__ <br><br>
-`demo_timescale 0.25`        __set the demo velocity to 1/4__ <br><br>
-`voice_enable 0`             __disables the voip__ <br><br>
-`mat_postprocess_enable 0`   __disables some glow effects__ <br><br>
-`mp_display_kill_assists 0`  __disables the display of kill assists__ <br><br>
-`snd_setmixer dialog vol 0`  __removes the sounds that the cts/trs make when throwing a grenade__ <br><br>
-`sv_skyname vertigoblue_hdr` __changes the map sky__ <br><br>
+| command                      | what it does                                                        |
+|------------------------------|---------------------------------------------------------------------|
+| `sv_cheats 1`                | __let you use commands__                                            |
+| `demo_timescale 0.25`        | __set the demo velocity to 1/4__                                    |
+| `voice_enable 0`             | __disable the voip__                                                |
+| `mat_postprocess_enable 0`   | __disable some glow effects__                                       |
+| `mp_display_kill_assists 0`  | __disable the display of kill assists__                             |
+| `snd_setmixer dialog vol 0`  | __remove the sounds that the cts/trs make when throwing a grenade__ |
+| `sv_skyname vertigoblue_hdr` | __change the map sky__                                              |
 
 ---
 <br>
