@@ -4,6 +4,7 @@
 * #### [launch-options.cfg](#launch-options)
 * #### [dark.cfg](#dark-config)
 * #### [highlights.cfg](#highlights-config)
+* #### [hlae.cfg](#hlae-config)
 
 <br>
 <br>
@@ -16,7 +17,8 @@ My personal config in game
 
 ## Launch options
 
-<br><br>
+<br>
+<br>
 
 | command                         | what it does                                                                                    |
 |---------------------------------|-------------------------------------------------------------------------------------------------|
@@ -39,7 +41,7 @@ My personal config in game
 | `+mat_disable_fancy_blending 1` | __remove details from some textures__                                                           |
 | `+r_dynamic 0`                  | __disable the dynamic illumination in game__                                                    |
 
----
+<br>
 <br>
 
 ## Dark config
@@ -66,7 +68,7 @@ Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sh
 | `ammo_grenade_limit_total 5` | __set the total of grenades that can be loaded to 5__                                             |
 | `mp_warmup_end`              | __remove the warmup__                                                                             |
 
----
+<br>
 <br>
 
 ## Highlights config
@@ -84,7 +86,29 @@ Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sh
 | `snd_setmixer dialog vol 0`  | __remove the sounds that the cts/trs make when throwing a grenade__ |
 | `sv_skyname vertigoblue_hdr` | __change the map sky__                                              |
 
----
+<br>
+<br>
+
+## HLAE Config
+
+<br>
+<br>
+
+| command                      | what it does                                                        |
+|------------------------------|---------------------------------------------------------------------|
+| `sv_cheats 1`                | __let you use commands__                                            |
+| `demo_timescale 0.25`        | __set the demo velocity to 1/4__                                    |
+| `voice_enable 0`             | __disable the voip__                                                |
+| `mat_postprocess_enable 0`   | __disable some glow effects__                                       |
+| `mp_display_kill_assists 0`  | __disable the display of kill assists__                             |
+| `snd_setmixer dialog vol 0`  | __remove the sounds that the cts/trs make when throwing a grenade__ |
+| `sv_skyname vertigoblue_hdr` | __change the map sky__                                              |
+| `mirv_input camera`          | __enters camera mode__                                              |
+| `mirv_campath draw enabled`  | __enable / disable the draw of camera keyframes__                   |
+| `mirv_campath add`           | __adds a camera keyframe__                                          |
+| `mirv_campath enable 1`      | __save all of camera keyframes__                                    |
+
+<br>
 <br>
 
 #### MIT License
