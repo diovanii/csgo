@@ -73,6 +73,8 @@ Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sh
 `voice_enable 0`             __disables the voip__ <br><br>
 `mat_postprocess_enable 0`   __disables some glow effects__ <br><br>
 `mp_display_kill_assists 0`  __disables the display of kill assists__ <br><br>
+`snd_setmixer dialog vol 0`  __removes the sounds that the cts/trs make when throwing a grenade__ <br><br>
+`sv_skyname vertigoblue_hdr` __changes the map sky__ <br><br>
 
 ---
 <br>
