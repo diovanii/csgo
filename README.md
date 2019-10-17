@@ -3,16 +3,18 @@
 * #### [jobzera.cfg](#jobzera)
 * #### [launch-options.cfg](#launch-options)
 * #### [dark.cfg](#dark-config)
+* #### [highlights.cfg](#highlights-config)
 
 <br>
 <br>
 
-### Jobzera
+## Jobzera
 My personal config in game
 
+---
 <br>
 
-### Launch options
+## Launch options
 <br><br>
 `-console`                      __automatically open the console__ <br><br>
 `-d3d9ex`                       __helps you alt+tab faster__ <br><br>
@@ -33,9 +35,16 @@ My personal config in game
 `+mat_disable_fancy_blending 1` __remove details from some textures__ <br><br>
 `+r_dynamic 0`                  __disable the dynamic illumination in game__ <br><br>
 
-### Dark config
+---
+<br>
+
+## Dark config
+
 Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sharedfiles/filedetails/?id=241148414)
-<br><br>
+
+<br>
+<br>
+
 `sv_cheats 1`                __lets you use commands__ <br><br>
 `mp_limitteams 0`            __remove the team limit__ <br><br>
 `mp_autoteambalance 0`       __disable auto team balancing__ <br><br>
@@ -51,5 +60,21 @@ Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sh
 `ammo_grenade_limit_total 5` __sets the total of grenades that can be loaded to 5__ <br><br>
 `mp_warmup_end`              __remove the warmup__ <br><br>
 
+---
+<br>
+
+## Highlights config
+
+<br>
+<br>
+
+`sv_cheats 1`                __lets you use commands__ <br><br>
+`demo_timescale 0.25`        __set the demo velocity to 1/4__ <br><br>
+`voice_enable 0`             __disables the voip__ <br><br>
+`mat_postprocess_enable 0`   __disables some glow effects__ <br><br>
+`mp_display_kill_assists 0`  __disables the display of kill assists__ <br><br>
+
+---
+<br>
 
 #### MIT License
