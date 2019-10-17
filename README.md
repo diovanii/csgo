@@ -5,6 +5,7 @@
 * #### [dark.cfg](#dark-config)
 * #### [highlights.cfg](#highlights-config)
 * #### [hlae.cfg](#hlae-config)
+* #### [practice.cfg](#practice-config)
 
 <br>
 <br>
@@ -46,7 +47,7 @@ My personal config in game
 
 ## Dark config
 
-#### _Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sharedfiles/filedetails/?id=241148414)_
+##### _Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sharedfiles/filedetails/?id=241148414)_
 
 <br>
 <br>
@@ -89,7 +90,7 @@ My personal config in game
 <br>
 <br>
 
-## HLAE Config
+## HLAE config
 
 <br>
 <br>
@@ -107,6 +108,43 @@ My personal config in game
 | `mirv_campath draw enabled`  | __enable / disable the draw of camera keyframes__                   |
 | `mirv_campath add`           | __adds a camera keyframe__                                          |
 | `mirv_campath enable 1`      | __save all of camera keyframes__                                    |
+
+<br>
+<br>
+
+## Practice config
+
+<br>
+<br>
+
+| command                         | what it does                                                                                      |
+|---------------------------------|---------------------------------------------------------------------------------------------------|
+| `sv_cheats 1`                   | __lets you use commands__                                                                         |
+| `mp_limitteams 0`               | __remove the team limit__                                                                         |
+| `mp_autoteambalance 0`          | __disable auto team balancing__                                                                   |
+| `mp_roundtime 60`               | __change the round time to 60 minutes__                                                           |
+| `mp_roundtime_defuse 60`        | __sets to 60 minutes the amount of time that a round takes to end in any bomb-defusal game mode__ |
+| `mp_round_restart_delay 0`      | __remove the initial delay of a round__                                                           |
+| `mp_maxmoney 60000`             | __set the maximum of money to 60k__                                                               |
+| `mp_startmoney 60000`           | __set the initial money to 60k__                                                                  |
+| `mp_freezetime 0`               | __remove the freezetime__                                                                         |
+| `mp_buytime 9999`               | __allow you to buy at any time__                                                                  |
+| `mp_buy_anywhere 1`             | __let you buy anywhere__                                                                          |
+| `sv_infinite_ammo 1`            | __activate infinite ammo__                                                                        |
+| `ammo_grenade_limit_total 5`    | __set the total of grenades that can be loaded to 5__                                             |
+| `bot_dont_shoot 1`              | __makes the bots not shoot__                                                                      |
+| `bot_allow_rogues 0`            | __makes bots obey radio commands__                                                                |
+| `bot_allow_snipers 0`           | __disable bots with snipers__                                                                     |
+| `bot_allow_grenades 0`          | __disable bots with grenades__                                                                    |
+| `bot_allow_shotguns 0`          | __disable bots with shotguns__                                                                    |
+| `bot_allow_machine_guns 0`      | __disable bots with machine guns__                                                                |
+| `bot_allow_sub_machine_guns 0`  | __disable bots with sub machine guns__                                                            |
+| `bot_kick`                      | __kick all bots__                                                                                 |
+| `mp_warmup_end`                 | __remove the warmup__                                                                             |
+| `sv_grenade_trajectory 1`       | __makes the grenades trajectory visible__                                                         |
+| `sv_grenade_trajectory_time 10` | __set the grenade trajectory visible during 10 seconds__                                          |
+| `sv_showimpacts 3`              | __show the gun impacts registered by the server__                                                 |
+| `sv_showimpacts_time 10`        | __set the gun impacts registered by the server during 10 seconds__                                |
 
 <br>
 <br>
