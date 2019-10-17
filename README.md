@@ -46,7 +46,7 @@ My personal config in game
 
 ## Dark config
 
-Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sharedfiles/filedetails/?id=241148414)
+#### _Config to be used on map [training_aim_csgo2_dark](https://steamcommunity.com/sharedfiles/filedetails/?id=241148414)_
 
 <br>
 <br>
