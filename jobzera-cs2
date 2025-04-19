@@ -1,0 +1,164 @@
+unbindall
+
+// CONSOLE
+
+con_enable "1"
+bind "`" "toggleconsole"
+
+
+
+// MOVEMENT
+
+bind "MOUSE_X" "yaw"
+bind "MOUSE_Y" "pitch"
+bind "mouse1" "+attack"
+bind "mouse2" "+attack2"
+bind "w" "+forward"
+bind "s" "+back"
+bind "d" "+right"
+bind "a" "+left"
+bind "shift" "+sprint"
+bind "ctrl" "+duck"
+bind "space" "+jump"
+bind "mwheelup" "+jump"
+bind "mwheeldown" "+jump"
+
+
+
+// BUY SCRIPT
+
+bind "pgdn" "buy vest;"
+bind "end" "buy vesthelm;"
+bind "del" "buy defuser;"
+bind "home" "buy ak47; buy m4a1;"
+bind "pgup" "buy awp;"
+bind "\" "buy ssg08;"
+bind "]" "buy deagle;"
+bind "uparrow" "buy flashbang;"
+bind "leftarrow" "buy molotov; buy incgrenade;"
+bind "downarrow" "buy smokegrenade;"
+bind "rightarrow" "buy hegrenade;"
+
+
+
+// SLOTS
+
+bind "1" "slot1"
+bind "2" "slot2"
+bind "3" "slot3"
+bind "4" "slot6"
+bind "5" "slot5"
+bind "c" "slot7"
+bind "x" "slot8"
+bind "v" "slot9"
+bind "z" "slot10"
+bind "capslock" "slot11"
+bind "6" "+spray_menu"
+
+
+
+// MISC
+
+bind "e" "+use"
+bind "r" "+reload"
+bind "f" "+voicerecord"
+bind "g" "drop"
+bind "h" "disconnect"
+bind "q" "lastinv"
+bind "t" "+lookatweapon"
+bind "," "teammenu"
+bind "b" "buymenu"
+bind "y" "messagemode"
+bind "u" "messagemode2"
+bind "m" "noclip"
+bind "tab" "+showscores"
+bind "escape" "cancelselect"
+cl_mute_enemy_team "1"
+
+
+
+// MOUSE / CROSSHAIR
+
+sensitivity "1.8"
+zoom_sensitivity_ratio "0.9"
+crosshair "1"
+cl_crosshairsize "2.5"
+cl_crosshairgap "-3"
+cl_crosshaircolor "1"
+cl_crosshairthickness "1"
+cl_crosshairstyle "4"
+cl_crosshairusealpha "1"
+cl_crosshairalpha "255"
+cl_crosshairdot "0"
+cl_crosshair_drawoutline "0"
+cl_crosshair_recoil "0"
+cl_sniper_auto_rezoom "1"
+cl_sniper_delay_unscope "0"
+cl_debounce_zoom "0"
+cl_crosshair_sniper_width "1"
+cl_crosshair_friendly_warning "0"
+
+
+
+// VIEWMODEL
+
+viewmodel_fov "68"
+viewmodel_presetpos "3"
+viewmodel_offset_x "2.5"
+viewmodel_offset_y "0"
+viewmodel_offset_z "-1.5"
+
+
+
+// RADAR
+
+cl_hud_radar_scale "1.3"
+cl_radar_always_centered "0"
+cl_radar_icon_scale_min "0.7"
+cl_radar_rotate "1"
+cl_radar_scale "0.4"
+cl_radar_square_with_scoreboard "1"
+
+
+
+// HUD
+
+r_show_build_info "0"
+cl_showfps "0"
+cl_autohelp "0"
+cl_clanid "35892377"
+cl_use_opens_buy_menu "0"
+cl_color "4"
+cl_hud_color "2"
+cl_show_clan_in_death_notice "0"
+cl_showloadout "1"
+cl_allow_animated_avatars "0"
+cl_teamcounter_playercount_instead_of_avatars "1"
+cl_teammate_colors_show "1"
+gameinstructor_enable "0"
+hud_scaling "0.85"
+safezonex "0.85"
+safezoney "0.9"
+hud_showtargetid "1"
+
+
+
+// SOUND
+
+volume "0.25"
+snd_gamevolume "1"
+snd_musicvolume "1"
+snd_voipvolume "1"
+snd_gamevoicevolume "1"
+snd_deathcamera_volume "0.16"
+snd_mvp_volume "0.16"
+snd_tensecondwarning_volume "0.04"
+snd_mapobjective_volume "0.04"
+snd_menumusic_volume "0.04"
+snd_headphone_eq "0"
+snd_steamaudio_enable_perspective_correction "1"
+
+
+
+clear
+echo "--------------------- Jobzera's cfg loaded! ---------------------"
